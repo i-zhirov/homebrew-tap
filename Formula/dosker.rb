@@ -7,23 +7,23 @@ class Dosker < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/i-zhirov/dosker/releases/download/v0.1.2/dosker-0.1.2-macos-arm64.tar.gz"
-      sha256 "92fbc39931ad61cad1e6bc657342603d454baf0663b43f6c887afd00f60b3cec"
+      url "https://github.com/i-zhirov/dosker/releases/download/v0.1.3/dosker-0.1.3-macos-arm64.tar.gz"
+      sha256 "d950ef514a31c5804114255bcbb754194fbff69717a3a15f366611dee4524dfa"
     end
 
     on_intel do
-      odie "DOSker 0.1.2 does not provide a macOS x86_64 artifact."
+      odie "DOSker 0.1.3 does not provide a macOS x86_64 artifact."
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/i-zhirov/dosker/releases/download/v0.1.2/dosker-0.1.2-linux-x86_64.tar.gz"
-      sha256 "7277e699f6a0a0c24c8ad76e3dd1caf3d0b67203ce30e81b3e084edab8a0c8a4"
+      url "https://github.com/i-zhirov/dosker/releases/download/v0.1.3/dosker-0.1.3-linux-x86_64.tar.gz"
+      sha256 "6763aa04e54499fa93f625b0f1adc6554110a549358c0143f74a9695238bc8be"
     end
 
     on_arm do
-      odie "DOSker 0.1.2 does not provide a Linux arm64 artifact."
+      odie "DOSker 0.1.3 does not provide a Linux arm64 artifact."
     end
   end
 
